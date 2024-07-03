@@ -1,0 +1,73 @@
+body{
+    height: 2000px;
+}
+.container-prices{
+    margin-top: 250px;
+}
+.price-items-grid{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    align-items: center;
+}
+.first-item-price{
+    display: inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    padding-top: 70px;
+}
+.center-item-price{
+    display: inline-block;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.h1-price{
+    margin-bottom: 50px;
+}
+.second-item-price{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.button-price{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px){
+    .price-items-grid{
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 60px;
+    }
+    .center-item-price{
+        display: inline-block;
+        border-color: white;
+        border-width: 2px;
+        border-style: solid;
+        text-align: center;
+        height: 350px;
+        width: 300px;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+}

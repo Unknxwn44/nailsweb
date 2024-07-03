@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prices.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <title>Responsive Navbar | HTML CSS JS</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </li>
+            <li><a href="blog.html">БЛОГ</a></li>
+            <li><a href="prices.html">УСЛУГИ</a></li>
+            <li><a href="">ОБО МНЕ</a></li>
+            <li><a href="">ОТЗЫВЫ</a></li>
+            <li><a href="">СОЦ.СЕТИ</a></li>
+        </ul>
+        <ul>
+            <li><a href="index.html" class="logo-nails">NailsRDK</a></li>
+            <li class="hideOnMobile"><a href="blog.html">БЛОГ</a></li>
+            <li class="hideOnMobile"><a href="prices.html">УСЛУГИ</a></li>
+            <li class="hideOnMobile"><a href="">ОБО МНЕ</a></li>
+            <li class="hideOnMobile"><a href="">ОТЗЫВЫ</a></li>
+            <li class="hideOnMobile"><a href="">СОЦ.СЕТИ</a></li>
+            <li class="menu-button" onclick=showSidebar()>
+                <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+            
+            </li>
+        </ul>
+    </nav>
+
+
+    <!----------------------------------Prices---------------------------------------->
+    <div class="container-prices">
+        <div class="price-items-grid">
+            <div class="first-item-price">
+                <div class="h1-price">
+                    <h1>ЗАПИСЬ НА НОГТИ</h1>
+                </div>
+                <div class="second-item-price">
+                    <p>20&#8364;</p>
+                </div>
+                <div class="third-item-price">
+                    <p>ДЕЛАЮ НОГТИ НА ВАШ ВЫБОР,ВЫБИРАЕТЕ ЦВЕТА И ДИЗАЙН!</p>
+                </div>
+                <a href="">
+                    <div class="fourth-item-price">
+                        <button class="button-price">ЗАПИСАТЬСЯ</button>
+                    </div>
+                </a>
+            </div>
+
+            <div class="center-item-price">
+                <div class="h1-price">
+                    <h1>ЗАПИСЬ НА НОГТИ</h1>
+                </div>
+                <div class="second-item-price">
+                    <p>20&#8364;</p>
+                </div>
+                <div class="third-item-price">
+                    <p>ДЕЛАЮ НОГТИ НА ВАШ ВЫБОР,ВЫБИРАЕТЕ ЦВЕТА И ДИЗАЙН!</p>
+                </div>
+                <a href="">
+                    <div class="fourth-item-price">
+                        <button class="button-price">ЗАПИСАТЬСЯ</button>
+                    </div>
+                </a>
+            </div>
+
+
+
+            <div class="first-item-price">
+                <div class="h1-price">
+                    <h1>ЗАПИСЬ НА НОГТИ</h1>
+                </div>
+                <div class="second-item-price">
+                    <p>20&#8364;</p>
+                </div>
+                <div class="third-item-price">
+                    <p>ДЕЛАЮ НОГТИ НА ВАШ ВЫБОР,ВЫБИРАЕТЕ ЦВЕТА И ДИЗАЙН!</p>
+                </div>
+                <a href="">
+                    <div class="fourth-item-price">
+                        <button class="button-price">ЗАПИСАТЬСЯ</button>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="prices.js"></script>
+</body>
